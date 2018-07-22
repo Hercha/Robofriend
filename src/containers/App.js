@@ -48,9 +48,6 @@ class App extends Component {
                 </div>
             );
         }
-        //console.log(filteredRobots);
-        //console.log('render');
-
     }
 
 export default connect(mapStateToProps, mapDispatchToProps)(App);
